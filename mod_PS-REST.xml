@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module"
+           version="3.0"
+           method="upgrade">
+	<name>PS REST</name>
+	<creationDate>December 16, 2022</creationDate>
+	<author>Enrico Zamprogno</author>
+	<authorUrl>https://www.auslromagna.it</authorUrl>
+	<copyright>Copyright Enrico Zamprogno. All rights reserved.</copyright>
+	<license>GNU General Public License version 2, or later.</license>
+	<version>0.0.1</version>
+	<description>REST webservice to post emergency room wait times</description>
+
+	<files>
+		<filename module="mod_PS-REST">mod_PS_REST.php</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+	</files>
+
+</extension>
