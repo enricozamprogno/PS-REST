@@ -8,7 +8,7 @@
  * Copyright  Copyright (C) 2013 betweenbrain llc. All Rights Reserved.
  * License    GNU General Public License version 2, or later.
  */
-class modHelloAjaxWorldHelper
+class modRestPsHelper
 {
 	public static function getAjax()
 	{
